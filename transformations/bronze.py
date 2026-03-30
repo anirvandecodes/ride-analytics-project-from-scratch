@@ -33,7 +33,7 @@ RIDE_SCHEMA = StructType([
 
 @dp.table(
     name="bronze_ride_event",
-    table_properties={"quality": "bronze"} 
+    table_properties={"quality": "bronze"},
 )
 def bronze_ride_events():
     return (
